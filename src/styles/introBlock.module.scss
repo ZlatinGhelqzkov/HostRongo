@@ -1,0 +1,268 @@
+.Intro {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/backgrounds/background_intro.webp");
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 500px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 700px;
+  }
+}
+
+.Intro_inner {
+  padding: 40px 0;
+
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 80px 0px;
+  }
+}
+
+.Intro_content {
+  text-align: left;
+  border-radius: 5px;
+  color: #fff;
+
+  @media (min-width: 768px) {
+    max-width: 50%;
+  }
+  @media (min-width: 1024px) {
+    max-width: 40%;
+  }
+}
+
+.Intro_content h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-transform: capitalize;
+
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 59px;
+  }
+}
+
+.Intro_content > p {
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
+.Countdown {
+  width: 60%;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.Countdown_inner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.Countdown_inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: #ff5166;
+}
+
+.Countdown_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+
+  @media (min-width: 768px) {
+    width: 20%;
+  }
+}
+
+.Countdown_item span {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Countdown_item p {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.Intro_action {
+  width: 100%;
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+    width: 70%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 60%;
+  }
+}
+
+.Pricing {
+  color: #fff;
+}
+
+.Intro_month {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Intro_price i {
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  font-size: 32px;
+
+  @media (min-width: 768px) {
+    top: 10px;
+    left: -25px;
+  }
+}
+
+.Intro_month h2 {
+  position: relative;
+  font-size: 100px;
+  line-height: 0.8;
+  letter-spacing: -7px;
+
+  @media (min-width: 768px) {
+    font-size: 160px;
+    letter-spacing: -8.5px;
+  }
+}
+
+.Price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  bottom: 0;
+}
+
+.Price span:first-of-type {
+  font-size: 37px;
+
+  @media (min-width: 768px) {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+.Price span {
+  font-size: 22px;
+}
+
+.Price_bubble {
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #009bcc;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+  @media (min-width: 768px) {
+    margin-left: 0;
+    left: -60px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.Price_bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 20px 20px;
+  border-color: transparent transparent #009bcc transparent;
+
+  @media (min-width: 768px) {
+    bottom: 5px;
+    right: 10px;
+  }
+}
+
+.Price_bubble h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.Partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    justify-content: space-between;
+    padding: 0px 5px;
+    height: 120px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px;
+    height: 120px;
+  }
+}
+
+.Partner_logo {
+  margin-bottom: 10px;
+}
+
+.Partner_logo img {
+  @media (min-width: 768px) {
+    width: 125px;
+  }
+  @media (min-width: 1024px) {
+    width: 170px;
+  }
+}

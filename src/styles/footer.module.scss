@@ -1,0 +1,146 @@
+.Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.Footer_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+  }
+
+  @media (min-width: 1024px) {
+    padding-bottom: 70px;
+  }
+}
+
+.Footer_lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  @media (min-width: 768px) {
+    width: 1100px;
+  }
+}
+
+.Footer_actions {
+  @media (min-width: 768px) {
+    margin-left: 50px;
+  }
+}
+
+.Footer_list {
+  width: 48%;
+  @media (min-width: 768px) {
+    width: 31%;
+  }
+}
+
+.Footer_list h4 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  color: #222b34;
+  margin-bottom: 20px;
+  @media (mi-width: 768px) {
+    margin-bottom: 25px;
+  }
+}
+
+.Footer_list ul li {
+  margin-bottom: 15px;
+}
+
+.Footer_list ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #6a6c75;
+  text-decoration: none;
+}
+
+.Footer_logo {
+  margin: 15px 0;
+}
+
+.Footer_content p {
+  color: #6a6c75;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.Footer_payments {
+  padding-bottom: 30px;
+}
+
+.Footer_social {
+  border-top: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.Footer_social_inner {
+  padding-top: 20px;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px;
+  }
+}
+
+.Footer_social_inner p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6a6c75;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    text-align: left;
+    margin-bottom: 0px;
+  }
+}
+
+.Footer_social_inner a {
+  color: #c93445;
+  text-decoration: underline;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #222b34;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0px;
+  }
+}
+
+.Social h4 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.Social svg {
+  color: #ccc;
+  height: 14px;
+  width: 14px;
+  margin: 0 10px;
+  @media (min-width: 768px) {
+    margin: 0 6px;
+  }
+}
