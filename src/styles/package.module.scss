@@ -1,0 +1,130 @@
+.Package {
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 50px 40px;
+  @media (min-width: 768px) {
+    padding: 50px 5px 40px;
+    width: 31%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 29%;
+  }
+}
+
+.Package_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 1024px) {
+    padding: 30px 40px;
+  }
+}
+
+.Package_pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Package_pricing > h4 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+.Package_pricing > span {
+  margin-bottom: 30px;
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: #c93445;
+}
+
+.Package_discount {
+  background: #6747c7;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.Package_discount span {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+
+.Package_month {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.Package_month h4 {
+  position: relative;
+  font-size: 60px;
+  line-height: 0.8;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+.Package_month svg {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+}
+
+.Price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.Price span {
+  font-size: 22px;
+  letter-spacing: -0.4px;
+}
+
+.Package_details {
+  padding: 10px;
+  @media (min-width: 768px) {
+    padding: 15px;
+  }
+}
+
+.Package_details ul li {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.Package_details ul li::before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  color: #00b67a;
+  font-size: 20px;
+}
+
+.Package_details ul li h5 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.Package_details ul li p {
+  color: #6a6c75;
+  font-size: 14px;
+  font-size: 400;
+}

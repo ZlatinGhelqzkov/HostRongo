@@ -15,7 +15,7 @@ function BtnPrimary({ name, color, fun }) {
         <button
           onClick={fun}
           style={{ background: color }}
-          className={styles.btnPrimary}
+          className={styles.btnPrimaryDiff}
         >
           {name}
         </button>

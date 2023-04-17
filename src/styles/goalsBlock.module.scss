@@ -1,0 +1,35 @@
+.Goals_background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0px;
+}
+
+.Goals {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Goals_content {
+  @media (min-width: 768px) {
+    max-width: 380px;
+  }
+}
+
+.Goals_action {
+  display: flex;
+}
+
+.Goals_inner_image {
+  margin-top: 20px;
+
+  @media (min-width: 768px) {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+.Goals_inner_image img {
+  width: 100%;
+}

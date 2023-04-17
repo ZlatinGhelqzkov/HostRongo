@@ -3,6 +3,9 @@ import Layout from "../../components/main/layout";
 import IntroBlock from "../../blocks/introBlock";
 import RatesBlock from "../../blocks/ratesBlock";
 import ProductivityBlock from "../../blocks/productivityBlock";
+import AboutBlock from "../../blocks/aboutBlock";
+import GoalsBlock from "../../blocks/goalsBlock.js";
+import PackagesBlock from "../../blocks/packagesBlock";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -14,6 +17,9 @@ export default function Home() {
       <IntroBlock />
       <RatesBlock />
       <ProductivityBlock />
+      <AboutBlock />
+      <GoalsBlock />
+      <PackagesBlock />
     </Layout>
   );
 }
